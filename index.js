@@ -17,6 +17,7 @@ const cats = ['Milo', 'Otis', 'Garfield'];
         cats.shift();
     }
 
+    
     function appendCat(name) {
       return [...cats, name];
     }
